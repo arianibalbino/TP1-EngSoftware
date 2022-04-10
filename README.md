@@ -6,7 +6,9 @@
              ◾ Frederico Marinho 2018072336             
              ◾ Daniel Coutinho 2018020484
              
+             
 ## Plataforma de controle de estoque de papelaria
+
 
 #### 📌 Possiveis Features: 
 ◾ Cadastro de produtos (Nome do produto, quantidade, preço unitário)
@@ -18,11 +20,12 @@
 ◾ Alteração de produtos (Cadastrar novo produto, alterar quantidades, alterar preços)
 
 
+
 #### 💻 Possiveis tecnologias:
                  
- ◾  front: React.js
+ ◾  front: React.js 
  
- ◾  Backend: Node.js
+ ◾  Backend: Node.js 
  
  ◾  BD: MySQL
           
