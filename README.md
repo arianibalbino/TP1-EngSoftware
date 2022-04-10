@@ -10,14 +10,19 @@
 
 #### 📌 Possiveis Features: 
 ◾ Cadastro de produtos (Nome do produto, quantidade, preço unitário)
+
 ◾ Cadastro de usuarios (Admin (Gerente), usuários (Vendedores))
+
 ◾ Consulta de produtos (Nome do produto, quantidade, preço unitário)
+
 ◾ Alteração de produtos (Cadastrar novo produto, alterar quantidades, alterar preços)
 
 
 #### 💻 Possiveis tecnologias:
                  
  ◾  front: React.js
+ 
  ◾  Backend: Node.js
+ 
  ◾  BD: MySQL
           
