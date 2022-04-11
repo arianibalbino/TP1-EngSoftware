@@ -27,5 +27,5 @@
  
  ◾  Backend: Node.js 
  
- ◾  BD: MySQL
+ ◾  BD: SQLite
           
