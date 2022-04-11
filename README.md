@@ -8,7 +8,7 @@
              
              
 ## Plataforma de controle de estoque de papelaria
-
+O Objetivo desta aplicação é digitalizar o processo de controle de esto que de uma papelaria, visando maior centralização de dados do prcesso logístico.
 
 #### 📌 Possiveis Features: 
 ◾ Cadastro de produtos (Nome do produto, quantidade, preço unitário)
