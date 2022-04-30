@@ -836,3 +836,11 @@ header h2 {
     border-radius: 20px;
   }
 }
+
+/***********Login**************/
+
+.col-login {
+  padding-top: 20vh;
+  height: 80vh;
+}
+

@@ -69,7 +69,7 @@ const Cabecalho = () => {
             <li className="nav-item">
               <Link
                 className="nav-nome text-gray nav-link  mx-4"
-                to="/contato"
+                to="/login"
               >
                 Login
               </Link>
