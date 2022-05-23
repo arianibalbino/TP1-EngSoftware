@@ -1,14 +1,8 @@
 const express = require('express'), 
     server = express(), 
-    cors = require('cors'),
-    mysql = require('mysql');
+    cors = require('cors')
 
-const database = mysql.createConnection({
-    "host": "localhost",
-    "user": "root",
-    "password": "",
-    "database": "fseletro"
-})
+// TODO: CREATE SQLITE DATABASE
 
 server.use(cors());
 server.use(express.json());
@@ -17,41 +11,35 @@ server.get('/',(req,res) => {
     res.end("<html>Hello world</html>")
 })
 
+// TODO: WRITE PRODUCT QUERY
 server.get('/produtos', (req,res) =>{
     const sql = "SELECT * FROM produtos";
-    database.query(sql, (error, results) =>{
-       if(error){
-           return error;
-       }res.json(results);
-    })
+    // TODO: IMPLEMENT SEARCH
+    results = {}
+    res.json(results)
 })
+
 
 server.get('/produtoshome', (req,res) =>{
     const sql = "SELECT * FROM produtos where idproduto < 5";
-    database.query(sql, (error, results) =>{
-       if(error){
-           return error;
-       }res.json(results);
-    })
+    // TODO: IMPLEMENT SEARCH
+    results = {}
+    res.json(results)
 })
 
 server.get('/msg', (req,res) =>{
     const sql = "SELECT * FROM comentarios";
-    database.query(sql, (error, results) =>{
-       if(error){
-           return error;
-       }res.json(results);
-    })
+    // TODO: IMPLEMENT SEARCH
+    results = {}
+    res.json(results)
 })
 
 server.post('/msg', (req,res)=>{
     const {nome, msg} = req.body
     const sql = `insert into comentarios (nome, msg) values ('${nome}','${msg}')`;
-    database.query(sql, (error, results) =>{
-        if(error){
-            return error;
-        }res.json(results);
-     })
+    // TODO: IMPLEMENT SEARCH
+    results = {}
+    res.json(results)
 })
 
 
