@@ -100,3 +100,4 @@ O Objetivo desta aplicação é digitalizar o processo de controle de esto que d
 #### 🔭 stretch:
 
 ◾ Criação e configuração do projeto no firebase para fornecer o CRUD de Frontend e signup
+◾ Gerar PDFs de relatorio de produtos e vendas
