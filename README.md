@@ -28,9 +28,9 @@ O Objetivo desta aplicação é digitalizar o processo de controle de esto que d
                  
  ◾  front: React.js 
  
- ◾  Backend: Node.js 
+ ◾  Backend: Node.js ( pivotado para .NET )
  
- ◾  BD: SQLite
+ ◾  BD: SQLite ( pivotrado para inMemory )
           
 ####  🤝 Commited
 
